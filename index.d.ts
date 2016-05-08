@@ -1,3 +1,3 @@
-declare function arrify <T> (arr: T | T[]): T[];
+declare function arrify <T> (arr: void | T | T[]): T[];
 
 export = arrify;
